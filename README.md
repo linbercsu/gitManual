@@ -98,7 +98,7 @@ for example:
 
 ## accept changes from remote
 
-````
+```
 git fetch   
 git rebase
 ```
