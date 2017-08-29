@@ -1,8 +1,15 @@
 # GIT MANUAL
 
+refer <https://git-scm.com/book/en/v2/>
+
 **You can use `git status` for getting hints at any time.**
 
-------
+# configuration
+
+> git config --global pull.rebase true  
+git config --global user.email your_email  
+git config --global user.name your_name
+
 
 # work flow
 
@@ -112,7 +119,6 @@ or
 git pull
 ```
 
-------
 
 # view log
 
@@ -136,7 +142,6 @@ show log with change details.
 `git log -p`
 
 
-------
 
 # stash
 stash uncommited changes.  
@@ -148,7 +153,6 @@ retrieve the last one.
 show the list stashed.  
 > git stash list
 
-------
 
 # common commands
 
@@ -160,12 +164,3 @@ show the list stashed.
 | git checkout myBranch | switch to local branch named 'myBranch' | myBranch must exist |
 | git reset --hard [commit hash] | make current branch point to specified commit, drop all the changes in staging space | if no commit specified, HEAD will be used. |
 | git cherry-pick hash\branch | pick specified commit to current branch | git cherry-pick 0f348732 or git cherry-pick origin/master |
-
-# configuration
-
-> git config --global pull.rebase true  
-git config --global user.email your_email  
-git config --global user.name your_name
-
-------
-refer <https://git-scm.com/book/en/v2/>
