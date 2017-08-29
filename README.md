@@ -152,7 +152,7 @@ show the list stashed.
 
 # common commands
 
-|  command  |  description  |  other  |
+|  command  |  description  |  remark  |
 | --------- | ------------- | ------- |
 | git remote -v | show remote repository address |   |
 | git branch -a | show all the branches include local and romote |  |
